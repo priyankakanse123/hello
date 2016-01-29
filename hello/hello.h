@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  hello.h
 //  hello
 //
 //  Created by BridgeLabz on 22/12/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
--(IBAction)click:(id)sender;
+@interface hello : UIViewController
+
+-(IBAction)button:(id)sender;
 
 @end
-

@@ -15,6 +15,7 @@
 		0A012F1C1C291E7B00A741DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A012F1A1C291E7B00A741DB /* LaunchScreen.storyboard */; };
 		0A012F271C291E7B00A741DB /* helloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A012F261C291E7B00A741DB /* helloTests.m */; };
 		0A012F321C291E7B00A741DB /* helloUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A012F311C291E7B00A741DB /* helloUITests.m */; };
+		0A012F411C29206600A741DB /* hello.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A012F401C29206600A741DB /* hello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0A012F2D1C291E7B00A741DB /* helloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A012F311C291E7B00A741DB /* helloUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = helloUITests.m; sourceTree = "<group>"; };
 		0A012F331C291E7B00A741DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A012F3F1C291F7C00A741DB /* hello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hello.h; sourceTree = "<group>"; };
+		0A012F401C29206600A741DB /* hello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				0A012F1A1C291E7B00A741DB /* LaunchScreen.storyboard */,
 				0A012F1D1C291E7B00A741DB /* Info.plist */,
 				0A012F0C1C291E7B00A741DB /* Supporting Files */,
+				0A012F3F1C291F7C00A741DB /* hello.h */,
+				0A012F401C29206600A741DB /* hello.m */,
 			);
 			path = hello;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				0A012F141C291E7B00A741DB /* ViewController.m in Sources */,
 				0A012F111C291E7B00A741DB /* AppDelegate.m in Sources */,
+				0A012F411C29206600A741DB /* hello.m in Sources */,
 				0A012F0E1C291E7B00A741DB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
